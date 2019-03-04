@@ -1,5 +1,5 @@
 # Liri Node App
-CLI version of the infamous Apple Siri interface
+CLI version of the infamously bad Apple Siri interface
 
 ## Getting Started
 1. Begin by typing in the following code into the command line:
@@ -7,14 +7,12 @@ CLI version of the infamous Apple Siri interface
 node liri.js
 ```
 *When the app is used without any arguments a suggestion appears.*
-
-![](gifs/liri-no-arg.gif)
+![](gifs/no-args-gif.gif)
 
 2. The first argument provided after `node liri.js` will be a `<command>`.
 3. The second argument provided after `node liri.js` will be a `<search parameter>` for the command.
 
 *When adding "help" as the first argument, a list of commands are provided*
-
 ![](gifs/help.gif)
 
 
@@ -50,10 +48,10 @@ node liri.js movie-this + <search parameter>
 ```
 node liri.js d0-what-it-says
 ```
-![](gifs/text.gif)
 *Command will read a file, parse the data, and search accordingly.*
+![](gifs/text.gif)
 
-    
+
 ## Built With
 * Node.js
 * npm
