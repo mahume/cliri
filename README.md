@@ -8,8 +8,7 @@ node liri.js
 ```
 *When the app is used without any arguments a suggestion appears.*
 
-[![asciicast](https://asciinema.org/a/rP4pfH06thFyR0I2qmTCepI3n.svg)](https://asciinema.org/a/rP4pfH06thFyR0I2qmTCepI3n)
-
+![](gifs/liri-no-arg.gif)
 
 2. The first argument provided after `node liri.js` will be a command.
 3. The second argument provided after `node liri.js` will be a `<search parameter>` for the command.
