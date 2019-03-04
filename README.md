@@ -9,12 +9,16 @@ node liri.js
 *When the app is used without any arguments a suggestion appears.*
 ![](gifs/no-args-gif.gif)
 
-2. The first argument provided after `node liri.js` will be a `<command>`.
-3. The second argument provided after `node liri.js` will be a `<search parameter>` for the command.
 
-*When adding "help" as the first argument, a list of commands are provided*
+2. The first argument provided after `node liri.js` will be a `<command>`.
+```
+node liri.js help
+```
+*This will display a list of acceptable commands*
 ![](gifs/help.gif)
 
+
+3. The second argument provided after `node liri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
 
 
 #### Concerts
