@@ -1,6 +1,4 @@
 require("dotenv").config()
-
-// Files
 const func = require('./functions')
 
 let command = process.argv[2]

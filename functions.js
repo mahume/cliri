@@ -40,7 +40,11 @@ function bandsInTownSearch() {
         `);
     })
     .catch(function(err) {
-        console.log(err)
+        if (TypeError) {
+            console.log(`Hmm... I'm not seeing any concerts for ${searchQuery}`)
+        } else {
+            console.log(err)
+        }
     })    
 }
 function spotifySearch() {
