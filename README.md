@@ -35,6 +35,7 @@ node liri.js concert-this + <search parameter>
 ```
 node liri.js spotify-this-song + <search parameter>
 ```
+*Hold command and click the hyperlink for a preview of the song*
 ![](gifs/song.gif)
 
 
@@ -52,7 +53,7 @@ node liri.js movie-this + <search parameter>
 ```
 node liri.js d0-what-it-says
 ```
-*Command will read a file, parse the data, and search accordingly.*
+*Command will read text from an external file, parse the data, and search accordingly.*
 ![](gifs/text.gif)
 
 
