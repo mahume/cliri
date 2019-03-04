@@ -12,14 +12,14 @@ node liri.js
 
 
 2. The first argument provided after `node liri.js` will be a command.
-3. The second argument provided after `node liri.js` will be a `<search parameter>` to the command.
+3. The second argument provided after `node liri.js` will be a `<search parameter>` for the command.
 
 *When adding "help" as the first argument, a list of commands are provided*
 
 [![asciicast](https://asciinema.org/a/Ud6cpGLmmKcPo39c03m3jlUDI.svg)](https://asciinema.org/a/Ud6cpGLmmKcPo39c03m3jlUDI)
 
 
-###Concerts
+#### Concerts
 ```
 node liri.js concert-this + <search parameter>
 ```
@@ -28,14 +28,14 @@ node liri.js concert-this + <search parameter>
 [![asciicast](https://asciinema.org/a/uqq6dgOZDLl4UYjXDlJCcSayH.svg)](https://asciinema.org/a/uqq6dgOZDLl4UYjXDlJCcSayH)
 
 
-###Songs
+#### Songs
 ```
 node liri.js spotify-this-song + <search parameter>
 ```
 [![asciicast](https://asciinema.org/a/THQiXKUOsvNQUyW14jV5T2D4e.svg)](https://asciinema.org/a/THQiXKUOsvNQUyW14jV5T2D4e)
 
 
-###Movies
+#### Movies
 ```
 node liri.js movie-this + <search parameter>
 ```
@@ -44,7 +44,7 @@ node liri.js movie-this + <search parameter>
 [![asciicast](https://asciinema.org/a/q1i1dZG4wXJ7inwLnE4r2B8fM.svg)](https://asciinema.org/a/q1i1dZG4wXJ7inwLnE4r2B8fM)
 
 
-###Text Files
+#### Text Files
 ```
 node liri.js d0-what-it-says
 ```
