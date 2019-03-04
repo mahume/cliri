@@ -11,7 +11,7 @@ switch (command) {
         func.displayCommands()
         break;
     case 'concert-this':
-        console.log('Searching for concert')
+        func.bandsInTownSearch()
         break;
     case 'spotify-this-song':
         func.spotifySearch()
@@ -26,4 +26,3 @@ switch (command) {
         func.commandError()
         break;
 }
-
