@@ -23,7 +23,7 @@ node liri.js help
 
 #### Concerts
 ```
-node liri.js concert-this + <search parameter>
+node liri.js concert-this + <Artist/Band name>
 ```
 ![](gifs/concert.gif)
 
@@ -33,7 +33,7 @@ node liri.js concert-this + <search parameter>
 
 #### Songs
 ```
-node liri.js spotify-this-song + <search parameter>
+node liri.js spotify-this-song + <Song Title>
 ```
 *Hold command and click the hyperlink for a preview of the song*
 ![](gifs/song.gif)
@@ -41,7 +41,7 @@ node liri.js spotify-this-song + <search parameter>
 
 #### Movies
 ```
-node liri.js movie-this + <search parameter>
+node liri.js movie-this + <Movie Title>
 ```
 ![](gifs/movie.gif)
 
