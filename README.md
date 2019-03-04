@@ -2,16 +2,16 @@
 CLI version of the infamous Apple Siri interface
 
 ## Getting Started
-1. Begin by typing in the following code
+1. Begin by typing in the following code into the command line:
 ```
 node liri.js
 ```
-2. The first argument provided after "liri.js" will be a command.
-3. The second argument provided after "liri.js" will be the specifier to the command.
-4. When the app is used without any arguments a suggestion appears.
+*When the app is used without any arguments a suggestion appears.*
 
 [![asciicast](https://asciinema.org/a/rP4pfH06thFyR0I2qmTCepI3n.svg)](https://asciinema.org/a/rP4pfH06thFyR0I2qmTCepI3n)
 
+2. The first argument provided after "liri.js" will be a command.
+3. The second argument provided after "liri.js" will be the specifier to the command.
 5. When adding "help" as an argument, a list of commands are provided
 
 [![asciicast](https://asciinema.org/a/Ud6cpGLmmKcPo39c03m3jlUDI.svg)](https://asciinema.org/a/Ud6cpGLmmKcPo39c03m3jlUDI)
