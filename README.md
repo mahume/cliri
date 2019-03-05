@@ -60,11 +60,11 @@ node liri.js do-what-it-says
 ## Built With
 * Node.js
 * npm
-    * axios
-    * chalk
-    * dotenv
-    * moment
-    * node-spotify-api
+    * [axios](https://www.npmjs.com/package/axios)
+    * [chalk](https://www.npmjs.com/package/chalk)
+    * [dotenv](https://www.npmjs.com/package/dotenv)
+    * [moment](https://www.npmjs.com/package/moment)
+    * [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
 
 ## Author
 Mike Hume
