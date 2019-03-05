@@ -1,5 +1,5 @@
-# Liri Node App
-CLI version of the infamously bad Apple Siri interface
+# Liri-bot App
+Node.js based CLI application that attempts to replace the infamously bad Apple Siri interface
 
 ## Getting Started
 1. Begin by typing the following code into the command line:
