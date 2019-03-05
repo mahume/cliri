@@ -2,7 +2,7 @@
 CLI version of the infamously bad Apple Siri interface
 
 ## Getting Started
-1. Begin by typing in the following code into the command line:
+1. Begin by typing the following code into the command line:
 ```
 node liri.js
 ```
@@ -27,7 +27,7 @@ node liri.js concert-this + <Artist/Band name>
 ```
 ![](gifs/concert.gif)
 
-*If the artist is not touring the app will notify you.*
+*If the artist is not touring, Liri-bot will notify you.*
 ![](gifs/no-concert.gif)
 
 
@@ -35,7 +35,7 @@ node liri.js concert-this + <Artist/Band name>
 ```
 node liri.js spotify-this-song + <Song Title>
 ```
-*Hold command and click the hyperlink for a preview of the song*
+*Hold command and click the URL for a hyperlink to a preview of the song*
 ![](gifs/song.gif)
 
 
@@ -45,15 +45,15 @@ node liri.js movie-this + <Movie Title>
 ```
 ![](gifs/movie.gif)
 
-*When a movie is misspelled, the app will notify you.*
+*When a movie title is misspelled, Liri-bot will notify you.*
 ![](gifs/movie-typo.gif)
 
 
 #### Text Files
 ```
-node liri.js d0-what-it-says
+node liri.js do-what-it-says
 ```
-*Command will read text from an external file, parse the data, and search accordingly.*
+*Liri-bot will read text from an external file, parse the data, and search accordingly.*
 ![](gifs/text.gif)
 
 
