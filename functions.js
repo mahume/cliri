@@ -27,7 +27,7 @@ function commandError() {
     Type "help" to see list of commands
     `))
 }
-function bandsInTownSearch() {
+function bandsInTownSearch(searchQuery) {
     console.log(chalk.underline.bold(`Results for the artist: ${searchQuery}`))
     const queryURL = `https://rest.bandsintown.com/artists/${searchQuery}/events?app_id=codingbootcamp`
     axios.get(queryURL)
@@ -47,7 +47,7 @@ function bandsInTownSearch() {
         }
     })    
 }
-function spotifySearch() {
+function spotifySearch(searchQuery) {
     console.log(chalk.underline.bold(`Results for the song: ${searchQuery}`))
     spotify
     .search({
@@ -68,7 +68,7 @@ function spotifySearch() {
     })
 }
 
-function omdbSearch() {
+function omdbSearch(searchQuery) {
     console.log(chalk.underline.bold(`Results for the movie: ${searchQuery}`))
     const queryURL = `http://www.omdbapi.com/?t=${searchQuery}&y=&plot=short&apikey=trilogy`
     axios.get(queryURL)

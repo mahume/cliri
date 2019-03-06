@@ -2,20 +2,20 @@ require("dotenv").config()
 const func = require('./functions')
 
 let command = process.argv[2]
-searchQuery = process.argv.slice(3).join(" ")
+let searchQuery = process.argv.slice(3).join(" ")
 
 switch (command) {
     case 'help':
         func.displayCommands()
         break;
     case 'concert-this':
-        func.bandsInTownSearch()
+        func.bandsInTownSearch(searchQuery)
         break;
     case 'spotify-this-song':
-        func.spotifySearch()
+        func.spotifySearch(searchQuery)
         break;
     case 'movie-this':
-        func.omdbSearch()
+        func.omdbSearch(searchQuery)
         break;
     case 'do-what-it-says':
         func.doWhatItSays()
