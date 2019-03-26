@@ -2,9 +2,9 @@
 
 ## About
 CLI application that returns results from API:
-Concerts via the "Bands in Town" API
-Songs via the "Spotify" API
-Movies via the "omdb" API
+- Concerts via the "Bands in Town" API
+- Songs via the "Spotify" API
+- Movies via the "omdb" API
 
 
 ## Getting Started
