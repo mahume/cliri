@@ -1,13 +1,10 @@
 # Liri-bot
 
-
 ## About
 CLI application that returns the following API results:
 - Concerts via the "Bands in Town" API
 - Songs via the "Spotify" API
 - Movies via the "omdb" API
-
-
 
 ## Getting Started
 1. Begin by typing the following code into the command line:
@@ -64,8 +61,6 @@ node liri.js do-what-it-says
 *Liri-bot will read text from an external file, parse the data, and search accordingly.*
 ![](gifs/text.gif)
 
-
-
 ## Built With
 * Node.js
 * npm packages
@@ -74,7 +69,6 @@ node liri.js do-what-it-says
     * [dotenv](https://www.npmjs.com/package/dotenv)
     * [moment](https://www.npmjs.com/package/moment)
     * [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
-
 
 ## Author
 Mike Hume
