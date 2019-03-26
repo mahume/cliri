@@ -1,10 +1,12 @@
 # Liri-bot
 
+
 ## About
 CLI application that returns the following API results:
 - Concerts via the "Bands in Town" API
 - Songs via the "Spotify" API
 - Movies via the "omdb" API
+
 
 
 ## Getting Started
@@ -63,6 +65,7 @@ node liri.js do-what-it-says
 ![](gifs/text.gif)
 
 
+
 ## Built With
 * Node.js
 * npm packages
@@ -71,6 +74,7 @@ node liri.js do-what-it-says
     * [dotenv](https://www.npmjs.com/package/dotenv)
     * [moment](https://www.npmjs.com/package/moment)
     * [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
+
 
 ## Author
 Mike Hume
