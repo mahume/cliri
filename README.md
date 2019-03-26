@@ -1,7 +1,7 @@
-# Liri-bot App
+# Liri-bot
 
 ## About
-CLI application that returns results from API:
+CLI application that returns the following API results:
 - Concerts via the "Bands in Town" API
 - Songs via the "Spotify" API
 - Movies via the "omdb" API
