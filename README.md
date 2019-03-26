@@ -1,5 +1,11 @@
 # Liri-bot App
-Node.js based CLI application that attempts to replace the infamously bad Apple Siri interface
+
+## About
+CLI application that returns results from API:
+Concerts via the "Bands in Town" API
+Songs via the "Spotify" API
+Movies via the "omdb" API
+
 
 ## Getting Started
 1. Begin by typing the following code into the command line:
@@ -59,7 +65,7 @@ node liri.js do-what-it-says
 
 ## Built With
 * Node.js
-* npm
+* npm packages
     * [axios](https://www.npmjs.com/package/axios)
     * [chalk](https://www.npmjs.com/package/chalk)
     * [dotenv](https://www.npmjs.com/package/dotenv)
