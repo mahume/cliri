@@ -29,14 +29,14 @@ function commandError() {
 }
 function bandsInTownSearch(searchQuery) {
     console.log(chalk.underline.bold(`Results for the artist: ${searchQuery}`))
-    const queryURL = `https://rest.bandsintown.com/artists/${searchQuery}/events?app_id=codingbootcamp`
-    axios.get(queryURL)
+    const QUERY_URL = `https://rest.bandsintown.com/artists/${searchQuery}/events?app_id=codingbootcamp`
+    axios.get(QUERY_URL)
     .then(function(response) {
-        const dateFormatted = moment(response.data[0].datetime).format("MM/DD/YYYY")
+        const DATE_FORMATTED = moment(response.data[0].datetime).format("MM/DD/YYYY")
         console.log(`
         Venue:      ${response.data[0].venue.name}
         Location:   ${response.data[0].venue.city}              
-        Date:       ${dateFormatted}
+        Date:       ${DATE_FORMATTED}
         `);
     })
     .catch(function(err) {
@@ -70,8 +70,8 @@ function spotifySearch(searchQuery) {
 
 function omdbSearch(searchQuery) {
     console.log(chalk.underline.bold(`Results for the movie: ${searchQuery}`))
-    const queryURL = `http://www.omdbapi.com/?t=${searchQuery}&y=&plot=short&apikey=trilogy`
-    axios.get(queryURL)
+    const QUERY_URL = `http://www.omdbapi.com/?t=${searchQuery}&y=&plot=short&apikey=trilogy`
+    axios.get(QUERY_URL)
     .then(function(response) {
         console.log(`
         Title:                      ${response.data.Title}
@@ -95,11 +95,11 @@ function omdbSearch(searchQuery) {
 }
 
 function doWhatItSays() {
-    const dataBuffer = fs.readFileSync('random.txt')
-    const dataJSON = dataBuffer.toString()
-    const dataArr = dataJSON.split(',')
-    command = dataArr[0]
-    searchQuery = dataArr[1]
+    const DATA_BUFFER = fs.readFileSync('random.txt')
+    const DATA_JSON = DATA_BUFFER.toString()
+    const DATA_ARR = DATA_JSON.split(',')
+    command = DATA_ARR[0]
+    searchQuery = DATA_ARR[1]
     spotifySearch()
 }
 
