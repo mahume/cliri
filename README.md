@@ -71,4 +71,4 @@ node liri.js do-what-it-says
     * [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
 
 ## Author
-Mike Hume
+[Mike Hume](https://mahume.github.io)
