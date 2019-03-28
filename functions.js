@@ -1,3 +1,5 @@
+"use strict"
+
 require("dotenv").config()
 // NPM Packages
 const axios = require('axios')
