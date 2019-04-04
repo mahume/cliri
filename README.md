@@ -2,9 +2,9 @@
 
 ## About
 CLI application that returns the following API results:
-- Concerts via the "Bands in Town" API
-- Songs via the "Spotify" API
-- Movies via the "omdb" API
+- [Concerts](#concerts) via the "Bands in Town" API
+- [Songs](#songs) via the "Spotify" API
+- [Movies](#movies) via the "omdb" API
 
 ## Getting Started
 1. Begin by typing the following code into the command line:
@@ -26,7 +26,7 @@ node liri.js help
 3. The second argument provided after `node liri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
 
 
-#### Concerts
+#### <a name="concerts"></a>Concerts
 ```
 node liri.js concert-this + <Artist/Band name>
 ```
@@ -36,7 +36,7 @@ node liri.js concert-this + <Artist/Band name>
 ![](gifs/no-concert.gif)
 
 
-#### Songs
+#### <a name="songs"></a>Songs
 ```
 node liri.js spotify-this-song + <Song Title>
 ```
@@ -44,7 +44,7 @@ node liri.js spotify-this-song + <Song Title>
 ![](gifs/song.gif)
 
 
-#### Movies
+#### <a name="movies"></a>Movies
 ```
 node liri.js movie-this + <Movie Title>
 ```
