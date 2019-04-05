@@ -5,6 +5,7 @@ CLI application that returns the following API results:
 - [Concerts](#concerts) via the "Bands in Town" API
 - [Songs](#songs) via the "Spotify" API
 - [Movies](#movies) via the "omdb" API
+- [Text Files](#text) via an external .txt file
 
 ## Getting Started
 1. Begin by typing the following code into the command line:
@@ -54,7 +55,7 @@ node liri.js movie-this + <Movie Title>
 ![](images/movie-typo.png)
 
 
-#### Text Files
+#### <a name="text"></a>Text Files
 ```
 node liri.js do-what-it-says
 ```
