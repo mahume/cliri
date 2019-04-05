@@ -12,7 +12,7 @@ CLI application that returns the following API results:
 node liri.js
 ```
 *When the app is used without any arguments a suggestion appears.*
-![](gifs/no-args-gif.gif)
+![](images/no-args.png)
 
 
 2. The first argument provided after `node liri.js` will be a `<command>`.
@@ -20,7 +20,7 @@ node liri.js
 node liri.js help
 ```
 *This will display a list of acceptable commands*
-![](gifs/help.gif)
+![](images/help.png)
 
 
 3. The second argument provided after `node liri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
@@ -30,10 +30,10 @@ node liri.js help
 ```
 node liri.js concert-this + <Artist/Band name>
 ```
-![](gifs/concert.gif)
+![](images/concert.png)
 
 *If the artist is not touring, Liri-bot will notify you.*
-![](gifs/no-concert.gif)
+![](images/no-concert.png)
 
 
 #### <a name="songs"></a>Songs
@@ -41,17 +41,17 @@ node liri.js concert-this + <Artist/Band name>
 node liri.js spotify-this-song + <Song Title>
 ```
 *Hold command and click the URL for a hyperlink to a preview of the song*
-![](gifs/song.gif)
+![](images/song.png)
 
 
 #### <a name="movies"></a>Movies
 ```
 node liri.js movie-this + <Movie Title>
 ```
-![](gifs/movie.gif)
+![](images/movie.png)
 
 *When a movie title is misspelled, Liri-bot will notify you.*
-![](gifs/movie-typo.gif)
+![](images/movie-typo.png)
 
 
 #### Text Files
@@ -59,7 +59,7 @@ node liri.js movie-this + <Movie Title>
 node liri.js do-what-it-says
 ```
 *Liri-bot will read text from an external file, parse the data, and search accordingly.*
-![](gifs/text.gif)
+![](images/text-file.png)
 
 ## Built With
 * Node.js

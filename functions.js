@@ -106,9 +106,9 @@ function doWhatItSays() {
   const DATA_BUFFER = fs.readFileSync('random.txt');
   const DATA_JSON = DATA_BUFFER.toString();
   const DATA_ARR = DATA_JSON.split(',');
-  command = DATA_ARR[0];
-  searchQuery = DATA_ARR[1];
-  spotifySearch();
+  const command = DATA_ARR[0];
+  const searchQuery = DATA_ARR[1];
+  spotifySearch(searchQuery);
 }
 
 module.exports = {
