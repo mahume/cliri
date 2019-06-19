@@ -12,60 +12,73 @@ CLI application that returns the following API results:
 ## Getting Started
 
 1. Begin by typing the following code into the command line:
+
 ```
 node cliri.js
 ```
+
 *When the app is used without any arguments a suggestion appears.*
 ![](images/no-args.png)
 
 
-2. The first argument provided after `node cliri.js` will be a `<command>`.
+1. The first argument provided after `node cliri.js` will be a `<command>`.
+
 ```
 node cliri.js help
 ```
+
 *This will display a list of acceptable commands*
 ![](images/help.png)
 
 
-3. The second argument provided after `node cliri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
+1. The second argument provided after `node cliri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
 
 
 #### <a name="concerts"></a>Concerts
+
 ```
 node cliri.js concert-this + <Artist/Band name>
 ```
+
 ![](images/concert.png)
 
-*If the artist is not touring, Liri-bot will notify you.*
+*If the artist is not touring, Cliri will notify you.*
 ![](images/no-concert.png)
 
 
 #### <a name="songs"></a>Songs
+
 ```
 node cliri.js spotify-this-song + <Song Title>
 ```
+
 *Hold command and click the URL for a hyperlink to a preview of the song*
 ![](images/song.png)
 
 
 #### <a name="movies"></a>Movies
+
 ```
 node cliri.js movie-this + <Movie Title>
 ```
+
 ![](images/movie.png)
 
-*When a movie title is misspelled, Liri-bot will notify you.*
+*When a movie title is misspelled, Cliri will notify you.*
 ![](images/movie-typo.png)
 
 
 #### <a name="text"></a>Text Files
+
 ```
 node cliri.js do-what-it-says
 ```
-*Liri-bot will read text from an external file, parse the data, and search accordingly.*
+
+*Cliri will read text from an external file, parse the data, and search accordingly.*
 ![](images/text-file.png)
 
 ## Built With
+
 * Node.js
 * npm packages
     * [axios](https://www.npmjs.com/package/axios)
@@ -75,4 +88,5 @@ node cliri.js do-what-it-says
     * [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
 
 ## Author
+
 [Mike Hume](https://mahume.github.io)
