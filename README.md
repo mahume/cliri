@@ -1,35 +1,38 @@
-# Liri-bot
+# Cliri
 
 ## About
+
 CLI application that returns the following API results:
+
 - [Concerts](#concerts) via the "Bands in Town" API
 - [Songs](#songs) via the "Spotify" API
 - [Movies](#movies) via the "omdb" API
 - [Text Files](#text) via an external .txt file
 
 ## Getting Started
+
 1. Begin by typing the following code into the command line:
 ```
-node liri.js
+node cliri.js
 ```
 *When the app is used without any arguments a suggestion appears.*
 ![](images/no-args.png)
 
 
-2. The first argument provided after `node liri.js` will be a `<command>`.
+2. The first argument provided after `node cliri.js` will be a `<command>`.
 ```
-node liri.js help
+node cliri.js help
 ```
 *This will display a list of acceptable commands*
 ![](images/help.png)
 
 
-3. The second argument provided after `node liri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
+3. The second argument provided after `node cliri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
 
 
 #### <a name="concerts"></a>Concerts
 ```
-node liri.js concert-this + <Artist/Band name>
+node cliri.js concert-this + <Artist/Band name>
 ```
 ![](images/concert.png)
 
@@ -39,7 +42,7 @@ node liri.js concert-this + <Artist/Band name>
 
 #### <a name="songs"></a>Songs
 ```
-node liri.js spotify-this-song + <Song Title>
+node cliri.js spotify-this-song + <Song Title>
 ```
 *Hold command and click the URL for a hyperlink to a preview of the song*
 ![](images/song.png)
@@ -47,7 +50,7 @@ node liri.js spotify-this-song + <Song Title>
 
 #### <a name="movies"></a>Movies
 ```
-node liri.js movie-this + <Movie Title>
+node cliri.js movie-this + <Movie Title>
 ```
 ![](images/movie.png)
 
@@ -57,7 +60,7 @@ node liri.js movie-this + <Movie Title>
 
 #### <a name="text"></a>Text Files
 ```
-node liri.js do-what-it-says
+node cliri.js do-what-it-says
 ```
 *Liri-bot will read text from an external file, parse the data, and search accordingly.*
 ![](images/text-file.png)

@@ -1,5 +1,5 @@
 {
-  "name": "liri-bot",
+  "name": "cliri",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahume/liri-node-app.git"
+    "url": "git+https://github.com/mahume/cliri.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mahume/liri-node-app/issues"
+    "url": "https://github.com/mahume/cliri/issues"
   },
-  "homepage": "https://github.com/mahume/liri-node-app#readme",
+  "homepage": "https://github.com/mahume/cliri#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "chalk": "^2.4.2",
