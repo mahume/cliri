@@ -21,9 +21,6 @@ node cliri.js
 *When the app is used without any arguments a suggestion appears.*
 ![](images/no-args.png)
 
-
-1. The first argument provided after `node cliri.js` will be a `<command>`.
-
 ```
 node cliri.js help
 ```
@@ -32,7 +29,7 @@ node cliri.js help
 ![](images/help.png)
 
 
-1. The second argument provided after `node cliri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
+The second argument provided after `node cliri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
 
 
 #### <a name="concerts"></a>Concerts
