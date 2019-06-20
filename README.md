@@ -75,7 +75,7 @@ node cliri.js do-what-it-says
 *Cliri will read text from an external file, parse the data, and search accordingly.*
 ![](images/text-file.png)
 
-## Built With
+## Technologies
 
 * Node.js
 * npm packages
