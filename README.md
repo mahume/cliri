@@ -2,7 +2,7 @@
 
 ## About
 
-CLI application that returns the following API results:
+Cliri (CLI + Siri) is a Command Line Interface application that returns the following API results:
 
 - [Help](#help) Basic command to run the application
 - [Concerts](#concerts) via the "Bands in Town" API
