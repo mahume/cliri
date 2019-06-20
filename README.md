@@ -4,6 +4,7 @@
 
 CLI application that returns the following API results:
 
+- [Help](#help) Basic command to run the application
 - [Concerts](#concerts) via the "Bands in Town" API
 - [Songs](#songs) via the "Spotify" API
 - [Movies](#movies) via the "omdb" API
@@ -11,7 +12,7 @@ CLI application that returns the following API results:
 
 ## Getting Started
 
-1. Begin by typing the following code into the command line:
+#### <a name="help"></a>Help
 
 ```
 node cliri.js
