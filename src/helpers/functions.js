@@ -6,7 +6,7 @@ const moment = require('moment');
 const Spotify = require('node-spotify-api');
 // Files
 const fs = require('fs');
-const keys = require('./keys');
+const keys = require('../utils/keys');
 
 const spotify = new Spotify(keys.spotify);
 

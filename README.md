@@ -19,14 +19,14 @@ node cliri.js
 ```
 
 *When the app is used without any arguments a suggestion appears.*
-![](images/no-args.png)
+![](public/images/no-args.png)
 
 ```
 node cliri.js help
 ```
 
 *This will display a list of acceptable commands*
-![](images/help.png)
+![](public/images/help.png)
 
 
 The second argument provided after `node cliri.js` will be a `<search parameter>` for the command. The following are the searchable categories.
@@ -38,10 +38,10 @@ The second argument provided after `node cliri.js` will be a `<search parameter>
 node cliri.js concert-this + <Artist/Band name>
 ```
 
-![](images/concert.png)
+![](public/images/concert.png)
 
 *If the artist is not touring, Cliri will notify you.*
-![](images/no-concert.png)
+![](public/images/no-concert.png)
 
 
 #### <a name="songs"></a>Songs
@@ -51,7 +51,7 @@ node cliri.js spotify-this-song + <Song Title>
 ```
 
 *Hold command and click the URL for a hyperlink to a preview of the song*
-![](images/song.png)
+![](public/images/song.png)
 
 
 #### <a name="movies"></a>Movies
@@ -60,10 +60,10 @@ node cliri.js spotify-this-song + <Song Title>
 node cliri.js movie-this + <Movie Title>
 ```
 
-![](images/movie.png)
+![](public/images/movie.png)
 
 *When a movie title is misspelled, Cliri will notify you.*
-![](images/movie-typo.png)
+![](public/images/movie-typo.png)
 
 
 #### <a name="text"></a>Text Files
@@ -73,7 +73,7 @@ node cliri.js do-what-it-says
 ```
 
 *Cliri will read text from an external file, parse the data, and search accordingly.*
-![](images/text-file.png)
+![](public/images/text-file.png)
 
 ## Technologies
 
