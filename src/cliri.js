@@ -1,25 +1,21 @@
 require('dotenv').config();
 const {
   displayCommands,
-  bandsInTownSearch,
-  spotifySearch,
+  searchConcert,
+  searchSong,
   omdbSearch,
   doWhatItSays,
-  commandError,
 } = require('./helpers/functions');
 
 const cliriCommand = process.argv[2];
 const searchQuery = process.argv.slice(3).join(' ');
 
 switch (cliriCommand) {
-  case 'help':
-    displayCommands();
+  case 'concert':
+    searchConcert(searchQuery);
     break;
-  case 'concert-this':
-    bandsInTownSearch(searchQuery);
-    break;
-  case 'spotify-this-song':
-    spotifySearch(searchQuery);
+  case 'spotify':
+    searchSong(searchQuery);
     break;
   case 'movie-this':
     omdbSearch(searchQuery);
@@ -28,6 +24,6 @@ switch (cliriCommand) {
     doWhatItSays();
     break;
   default:
-    commandError();
+    displayCommands();
     break;
 }
