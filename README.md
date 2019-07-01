@@ -24,13 +24,12 @@ Cliri (CLI + Siri) is a Command Line Interface application that allows you to se
 ```
 node cliri.js
 ```
- 
-*When the app is used without arguments, a list of commands is provided with appropriate search syntax.*
+
 ![](public/images/no-args.png)
 
 ---
 
-#### <a name="concerts"></a>Concerts
+#### <a name="concerts"></a>**Concerts**
 
 ```
 node cliri.js concert + <Artist/Band name>
@@ -39,24 +38,22 @@ node cliri.js concert + <Artist/Band name>
 ![](public/images/concert.png)
 
 *If the artist is not touring, Cliri will notify you.*
-
 ![](public/images/no-concert.png)
 
 ---
 
-#### <a name="songs"></a>Songs
+#### <a name="songs"></a>**Songs**
 
 ```
 node cliri.js song + <Song Title>
 ```
 
 *Hold command and click the URL for a hyperlink to a preview of the song*
-
 ![](public/images/song.png)
 
 ---
 
-#### <a name="movies"></a>Movies
+#### <a name="movies"></a>**Movies**
 
 ```
 node cliri.js movie + <Movie Title>
@@ -65,15 +62,14 @@ node cliri.js movie + <Movie Title>
 ![](public/images/movie.png)
 
 *When a movie title is misspelled, Cliri will notify you.*
-
 ![](public/images/movie-typo.png)
 
 ---
 
-#### <a name="text"></a>Text Files
+#### <a name="text"></a>**Text Files**
 
 ```
-node cliri.js do-what-it-says
+node cliri.js text
 ```
 
 *Cliri will read text from an external file, parse the data, and search accordingly.*
@@ -83,21 +79,13 @@ node cliri.js do-what-it-says
 ## Technologies
 
 * Node.js
-
 * npm packages
-
-* [axios](https://www.npmjs.com/package/axios)
-
-* [chalk](https://www.npmjs.com/package/chalk)
-
-* [commander](https://www.npmjs.com/package/commander)
-
-* [dotenv](https://www.npmjs.com/package/dotenv)
-
-* [moment](https://www.npmjs.com/package/moment)
-
-* [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
-
+  * [axios](https://www.npmjs.com/package/axios)
+  * [chalk](https://www.npmjs.com/package/chalk)
+  * [commander](https://www.npmjs.com/package/commander)
+  * [dotenv](https://www.npmjs.com/package/dotenv)
+  * [moment](https://www.npmjs.com/package/moment)
+  * [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
 * Jest
 
 ## Author
