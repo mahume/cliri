@@ -1,9 +1,8 @@
-require('dotenv').config();
 const {
   displayCommands,
   searchConcert,
   searchSong,
-  omdbSearch,
+  searchMovie,
   doWhatItSays,
 } = require('./helpers/functions');
 
@@ -17,8 +16,8 @@ switch (cliriCommand) {
   case 'spotify':
     searchSong(searchQuery);
     break;
-  case 'movie-this':
-    omdbSearch(searchQuery);
+  case 'movie':
+    searchMovie(searchQuery);
     break;
   case 'do-what-it-says':
     doWhatItSays();
