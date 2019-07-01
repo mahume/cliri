@@ -28,6 +28,8 @@ node cliri.js
 *When the app is used without arguments, a list of commands is provided with appropriate search syntax.*
 ![](public/images/no-args.png)
 
+---
+
 #### <a name="concerts"></a>Concerts
 
 ```
@@ -40,6 +42,8 @@ node cliri.js concert + <Artist/Band name>
 
 ![](public/images/no-concert.png)
 
+---
+
 #### <a name="songs"></a>Songs
 
 ```
@@ -49,6 +53,8 @@ node cliri.js song + <Song Title>
 *Hold command and click the URL for a hyperlink to a preview of the song*
 
 ![](public/images/song.png)
+
+---
 
 #### <a name="movies"></a>Movies
 
@@ -61,6 +67,8 @@ node cliri.js movie + <Movie Title>
 *When a movie title is misspelled, Cliri will notify you.*
 
 ![](public/images/movie-typo.png)
+
+---
 
 #### <a name="text"></a>Text Files
 
