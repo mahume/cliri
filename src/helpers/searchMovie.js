@@ -28,7 +28,7 @@ const searchMovie = async query => {
     `);
   } catch (error) {
     console.log(`
-      Hmm... Please check the spelling of ${searchQuery}.
+      Hmm... I'm unable to find the movie ${searchQuery}.
     `);
   }
 };

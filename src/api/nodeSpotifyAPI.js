@@ -16,7 +16,6 @@ const nodeSpotifyAPI = async query => {
     return response;
   } catch (error) {
     spinner.stop();
-    console.error(error);
   }
 };
 
