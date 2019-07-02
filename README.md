@@ -82,10 +82,11 @@ node cliri.js text
 * npm packages
   * [axios](https://www.npmjs.com/package/axios)
   * [chalk](https://www.npmjs.com/package/chalk)
-  * [commander](https://www.npmjs.com/package/commander)
   * [dotenv](https://www.npmjs.com/package/dotenv)
   * [moment](https://www.npmjs.com/package/moment)
   * [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
+  * [ora](https://www.npmjs.com/package/ora)
+  * [yargs](https://www.npmjs.com/package/yargs)
 * Jest
 
 ## Author
