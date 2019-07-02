@@ -1,5 +1,5 @@
 const moment = require('moment');
-const { bandsInTown } = require('../api');
+const bandsInTown = require('../api/bandsInTown');
 const chalkStyling = require('../utils/chalkStyling');
 
 const { makeBoldBlue, makeBoldUnderline } = chalkStyling;

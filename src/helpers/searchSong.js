@@ -1,4 +1,4 @@
-const { spotifyAPI } = require('../api');
+const nodeSpotifyAPI = require('../api/nodeSpotifyAPI');
 const chalkStyling = require('../utils/chalkStyling');
 
 const { makeBoldBlue, makeBoldUnderline } = chalkStyling;
@@ -8,7 +8,7 @@ const searchSong = async query => {
   const resultsFor = makeBoldUnderline('Results For:');
   const searchQuery = makeBoldBlue(query);
   // API
-  const response = await spotifyAPI(query);
+  const response = await nodeSpotifyAPI(query);
   const { name, preview_url, album } = response.tracks.items[0];
   // Display
   console.log(`

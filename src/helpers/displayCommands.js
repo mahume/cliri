@@ -14,7 +14,7 @@ const displayCommands = () => {
   const command = makeBoldRed('Command');
   const searchQuery = makeBoldBlue('Search Query');
   const searchSyntax = makeItalic('Search Syntax:');
-  const nodePath = makeGreen('node src/cliri.js');
+  const node = makeGreen('node');
   // Display
   console.log(`
     ${searchFor}       ${command}                ${searchQuery}`);
@@ -24,7 +24,8 @@ const displayCommands = () => {
     Movies            movie              +   <movie title>
     Text file         text`);
   console.log(`
-    ${searchSyntax}    ${nodePath} ${command} ${searchQuery}
+    ${searchSyntax}    ${node} cliri.js ${command} ${searchQuery}
   `);
 };
+
 module.exports = displayCommands;
