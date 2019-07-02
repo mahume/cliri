@@ -10,7 +10,6 @@ const omdbAPI = async query => {
     return response;
   } catch (error) {
     spinner.stop();
-    console.log(error);
   }
 };
 
