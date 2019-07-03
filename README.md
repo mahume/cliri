@@ -7,7 +7,7 @@ Cliri (CLI + Siri) is a Command Line Interface application that allows you to se
 
 ## Table of Contents
 
-- [Commands:](#commands) Menu of available commands to run the application.
+- [Menu:](#menu) List of available commands to run the application.
 
 - [Concerts:](#concerts) Returns upcoming venue, location and date for an artist's next concert.
 
@@ -19,8 +19,9 @@ Cliri (CLI + Siri) is a Command Line Interface application that allows you to se
 
 ## Getting Started
 
-#### <a name="commands"></a>Commands
+#### <a name="menu"></a>Menu
 
+*Run the following code to view the list of available commands.*
 ```
 cliri
 ```
