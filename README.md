@@ -3,7 +3,7 @@
 
 ## About
 
-Cliri (CLI + Siri) is a Command Line Interface application that allows you to search concerts, songs, and movie data.
+Cliri (CLI + Siri) is a Command Line Interface application that allows you to search for concert, song, and movie data.
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Cliri (CLI + Siri) is a Command Line Interface application that allows you to se
 #### <a name="commands"></a>Commands
 
 ```
-node cliri.js
+cliri
 ```
 
 ![](public/images/no-args.png)
@@ -32,7 +32,7 @@ node cliri.js
 #### <a name="concerts"></a>**Concerts**
 
 ```
-node cliri.js concert + <Artist/Band name>
+cliri concert + <Artist/Band name>
 ```
 
 ![](public/images/concert.png)
@@ -45,7 +45,7 @@ node cliri.js concert + <Artist/Band name>
 #### <a name="songs"></a>**Songs**
 
 ```
-node cliri.js song + <Song Title>
+cliri song + <Song Title>
 ```
 
 *Hold command and click the URL for a hyperlink to a preview of the song*
@@ -56,7 +56,7 @@ node cliri.js song + <Song Title>
 #### <a name="movies"></a>**Movies**
 
 ```
-node cliri.js movie + <Movie Title>
+cliri movie + <Movie Title>
 ```
 
 ![](public/images/movie.png)
@@ -69,7 +69,7 @@ node cliri.js movie + <Movie Title>
 #### <a name="text"></a>**Text Files**
 
 ```
-node cliri.js text
+cliri text
 ```
 
 *Cliri will read text from an external file, parse the data, and search accordingly.*
