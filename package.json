@@ -1,17 +1,17 @@
 {
   "name": "cliri",
   "version": "1.0.0",
-  "description": "",
+  "description": "Search concert, song, and movie data",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "bin": {
+    "cliri": "./src/cliri.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahume/cliri.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mike Hume",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mahume/cliri/issues"
@@ -24,11 +24,5 @@
     "moment": "^2.24.0",
     "node-spotify-api": "^1.0.7",
     "ora": "^3.4.0"
-  },
-  "devDependencies": {
-    "jest": "^24.8.0"
-  },
-  "bin": {
-    "cliri": "./src/cliri.js"
   }
 }

@@ -87,7 +87,6 @@ cliri text
   * [moment](https://www.npmjs.com/package/moment)
   * [node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
   * [ora](https://www.npmjs.com/package/ora)
-* Jest
 
 ## Author
 
